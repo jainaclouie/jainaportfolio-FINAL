@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #1c1c1c;
+    color: #fff;
+}
+
+nav {
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    align-items: center;
+}
+
+nav h2 {
+    color: orange;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: orange;
+}
+
+.hero {
+    display: flex;
+    padding: 3rem 2rem;
+    gap: 2rem;
+    align-items: center;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.hero .btn {
+    margin-top: 1rem;
+    background-color: orange;
+    color: #000;
+    padding: 0.5rem 1.5rem;
+    border: none;
+    border-radius: 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.about {
+    background-color: #2b2b2b;
+    display: flex;
+    align-items: center;
+    padding: 3rem 2rem;
+    gap: 2rem;
+}
+
+.about-pic {
+    width: 120px;
+    border-radius: 50%;
+}
+
+.project {
+    padding: 3rem 2rem;
+    background-color: #1c1c1c;
+}
+
+.project-card {
+    display: flex;
+    gap: 2rem;
+    background-color: #2e2e2e;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-top: 1rem;
+}
+
+.project-card img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.project .btn {
+    background-color: orange;
+    color: #000;
+    padding: 0.5rem 1.2rem;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+.contact {
+    background-color: #111;
+    padding: 3rem 2rem;
+}
+
+.contact form {
+    display: grid;
+    gap: 1rem;
+}
+
+.contact input,
+.contact textarea {
+    padding: 0.75rem;
+    border-radius: 8px;
+    border: none;
+    width: 100%;
+    resize: none;
+}
+
+.contact .btn {
+    background-color: orange;
+    color: #000;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.socials {
+    margin-top: 1.5rem;
+    font-size: 0.9rem;
+    color: #aaa;
+}
